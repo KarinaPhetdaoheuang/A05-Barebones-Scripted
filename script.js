@@ -1,3 +1,5 @@
 function myFunction() {
-   let element = document.querySelector("Light-Mode");
+  var element = document.body;
+  element.classList.toggle("light-mode");
+  
 }
